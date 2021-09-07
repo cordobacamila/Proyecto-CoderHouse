@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+header {
+  width: 100%;
+  height: 100vh;
+}
+header .portada {
+  position: absolute;
+  z-index: -1;
+  width: inherit;
+}
+header a {
+  text-decoration: none;
+}
+header a h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(black, transparent);
+  letter-spacing: 0.9rem;
+  font-size: 64px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+header nav ul li {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li a {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+  padding: 50px;
+  margin-top: 60px;
+}
+footer p {
+  text-align: left;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  display: inline;
+  margin-left: 50px;
+}
+footer div {
+  display: inline;
+  text-align: right;
+  margin-left: 1000px;
+}
+footer div a {
+  text-decoration: none;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  margin: 2px;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 0.1cm;
+}
+
+.p-explicacion {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #2b2929;
+}
+
+.negrita {
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+#carousel {
+  margin-top: 150px;
+}
+#carousel p {
+  text-align: center;
+  word-spacing: 2px;
+  padding: 50px;
+  color: var(--main-color);
+  font-family: "Barlow", sans-serif;
+}
+
+#pack-carousel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  grid-gap: 10px;
+  margin-bottom: 40px;
+}
+#pack-carousel div img {
+  width: 100%;
+  height: 100%;
+}
+
+.seccion-nosotros {
+  display: flex;
+}
+.seccion-nosotros img {
+  height: 650px;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 100vh;
+}
+.seccion-nosotros div {
+  margin-top: 100px;
+  padding: 90px;
+}
+.seccion-nosotros h3 {
+  margin-top: 50px;
+}
+
+#ustedes {
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.p-resenas {
+  color: #13b413;
+  font-family: "Open Sans", sans-serif;
+  margin: 40px;
+  font-style: italic;
+  display: flex;
+  text-align: center;
+}
+
+.estrella {
+  text-align: center;
+  opacity: 0;
+}
+.estrella:hover {
+  opacity: 1;
+}
+
+.nombreResenas {
+  text-align: end;
+  color: var(--main-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+/*seccion titulo + texto*/
+#p-seccion-prod {
+  padding: 120px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  margin-top: 100px;
+  animation: slideInDown;
+  animation-duration: 2s;
+}
+#p-seccion-prod p {
+  margin-top: 20px;
+  animation: slideInUp;
+  animation-duration: 2s;
+}
+
+/*seccion grid de productos*/
+.seccion-producto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 10px;
+}
+.seccion-producto div {
+  width: 100%;
+  height: 100%;
+}
+.seccion-producto div p {
+  font-size: 0.8rem;
+  color: #2b2929;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.seccion-producto div p img {
+  transition: all 1.5s;
+  width: 50%;
+  height: 50%;
+}
+.seccion-producto div p img:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */

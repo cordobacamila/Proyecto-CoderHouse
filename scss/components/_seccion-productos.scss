@@ -1,0 +1,56 @@
+@import '../base/variables';
+@import '../base/fonts';
+@import '../base/mixin';
+
+/*seccion titulo + texto*/
+#p-seccion-prod{
+    padding: 120px;
+    text-align: center;
+    font-family: $font-parrafos;
+    margin-top: 100px;
+    animation: slideInDown;
+    animation-duration: 2s;
+ 
+    p{
+        margin-top: 20px;
+        animation: slideInUp;
+        animation-duration: 2s;
+    }
+}
+
+/*seccion grid de productos*/
+.seccion-producto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+    
+    div{
+        width: 100%;
+        height: 100%;
+
+        p{
+            font-size: 0.8rem;
+            @include font-color($main-color, $font-productos);
+            text-align: center;
+
+            img{
+                transition: all 1.5s;
+                width: 50%;
+                height: 50%;
+            
+            
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            
+        }
+    }
+}
+
+
+
+
+

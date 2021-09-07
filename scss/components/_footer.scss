@@ -1,0 +1,36 @@
+@import '../base/variables';
+@import '../base/fonts';
+@import '../base/mixin';
+footer{
+    background-color: $main-color-background;
+    padding: 50px;
+    margin-top: 60px;  
+    
+    p{
+        text-align: left; 
+        @include font-color(white, $font-parrafos );
+        text-decoration: none; 
+        display: inline; 
+        margin-left: 50px;
+    }
+    
+    div{
+        display: inline;
+        text-align: right;
+        margin-left: 1000px;
+
+        a{
+            text-decoration: none;
+            @include font-color(white, $font-parrafos );  
+            margin: 2px;
+            padding: 10px;
+        }
+    }
+
+
+}
+
+
+
+
+

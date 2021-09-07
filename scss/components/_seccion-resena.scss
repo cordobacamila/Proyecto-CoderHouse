@@ -1,0 +1,35 @@
+@import '../base/variables';
+@import '../base/fonts';
+@import '../base/mixin';
+
+#ustedes{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.p-resenas{
+    @include font-color(rgb(19, 180, 19), $font-productos );
+    margin: 40px;
+    font-style: italic;
+    display: flex;
+    text-align: center;
+}
+
+.estrella{
+    text-align: center;
+    opacity: 0.0;
+    
+    &:hover{
+        opacity: 1;
+    }
+}
+
+
+
+.nombreResenas{
+    text-align: end;
+    @include font-color(var(--main-color), $font-productos );
+}

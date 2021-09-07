@@ -1,0 +1,25 @@
+@import '../base/variables';
+@import '../base/fonts';
+
+.seccion-nosotros{
+    display: flex;
+
+    img{
+        height: 650px;  
+        margin-top: 20px;
+        margin-left: 10px; 
+        height: 100vh;
+        
+    }
+
+    div{
+        margin-top: 100px;
+        padding: 90px;
+       
+    }
+
+    h3{
+        margin-top: 50px;
+    }
+} 
+

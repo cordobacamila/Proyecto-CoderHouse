@@ -1,0 +1,34 @@
+@import '../base/variables';
+@import '../base/fonts';
+@import '../base/mixin';
+
+
+#carousel{
+    margin-top: 150px;
+
+    p{
+        text-align: center;
+        word-spacing: 2px;
+        padding: 50px;
+        @include font-color(var(--main-color), $font-parrafos );
+    }
+}
+
+#pack-carousel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+    margin-bottom: 40px;
+
+    div{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
